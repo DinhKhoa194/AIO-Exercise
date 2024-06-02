@@ -33,4 +33,4 @@ def evaluate_classification_model(tp, fp, fn):
     print(f"F1-Score: {f1_score:.2f}")
 
 # Ví dụ sử dụng hàm với các giá trị TP, FP, FN
-evaluate_classification_model(tp=50, fp=10, fn=5)
+evaluate_classification_model(tp=2, fp=4, fn=5)
